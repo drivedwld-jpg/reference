@@ -1,0 +1,1 @@
+{"enchanting_panel/root_panel":{"$top_variant":"enchanting.enchanting_panel_top_half","modifications":[{"array_name":"controls","operation":"insert_front","value":{"1@Buttons_base.content":{}}}]}}

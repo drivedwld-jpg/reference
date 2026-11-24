@@ -1,0 +1,1 @@
+{"smithing_table_panel":{"$use_inv_mode":true},"smithing_table_panel/root_panel":{"modifications":[{"array_name":"controls","operation":"insert_front","value":{"1@Buttons_base.content":{}}}]}}
