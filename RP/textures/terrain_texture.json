@@ -1,0 +1,36 @@
+{
+  "resource_pack_name": "cctv_rp",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "cctv_dome": {
+      "textures": "textures/blocks/cctv_dome"
+    },
+    "cctv_bullet": {
+      "textures": "textures/blocks/cctv_bullet"
+    },
+    "cctv_turret": {
+      "textures": "textures/blocks/cctv_turret"
+    },
+    "cctv_ptz": {
+      "textures": "textures/blocks/cctv_ptz"
+    },
+    "cctv_monitor": {
+      "textures": "textures/blocks/cctv_monitor"
+    },
+    "cctv_cpu": {
+      "textures": "textures/blocks/cctv_cpu"
+    },
+    "cctv_router": {
+      "textures": "textures/blocks/cctv_router"
+    },
+    "cctv_corner": {
+      "textures": "textures/blocks/cctv_corner"
+    },
+    "cctv_air_conditioner": {
+      "textures": "textures/blocks/cctv_air_conditioner"
+    },
+    "cctv_heater": {
+      "textures": "textures/blocks/cctv_heater"
+    }
+  }
+}

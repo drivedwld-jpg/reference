@@ -1,0 +1,19 @@
+pack.name=CCTV Security Cameras BP
+pack.description=Adds Dome, Bullet, Turret, PTZ Cameras, Security Monitor, Server CPU, Router, and Portable Security Phone!
+
+## CCTV Cameras
+tile.cctv:dome_camera.name=Dome CCTV Camera
+tile.cctv:bullet_camera.name=Bullet CCTV Camera
+tile.cctv:turret_camera.name=Turret CCTV Camera
+tile.cctv:ptz_camera.name=PTZ CCTV Camera
+
+## Security Infrastructure & Control
+tile.cctv:monitor.name=CCTV Security Monitor
+tile.cctv:cpu.name=Security Server CPU / DVR
+tile.cctv:router.name=Security Network Router
+tile.cctv:security_phone.name=Security Smartphone
+item.cctv:security_phone.name=Security Smartphone
+
+## HVAC & Climate
+tile.cctv:air_conditioner.name=Air Conditioner
+tile.cctv:heater.name=Space Heater

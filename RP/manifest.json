@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "CCTV Security Cameras RP",
+    "description": "Resources, textures, and 3D models for CCTV Cameras (Dome, Bullet, Turret, PTZ) & Security Monitor.",
+    "uuid": "0ea1c3fa-9b0b-436c-b54b-c2ea78e2d479",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "cce70a4c-4da0-49d1-a570-f6d1cccbf636",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}

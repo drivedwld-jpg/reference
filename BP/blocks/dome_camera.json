@@ -1,0 +1,146 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cctv:dome_camera",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.cctv"
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:geometry": "geometry.cctv_dome_ceiling",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cctv_dome",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -5,
+          10,
+          -5
+        ],
+        "size": [
+          10,
+          6,
+          10
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -5,
+          10,
+          -5
+        ],
+        "size": [
+          10,
+          6,
+          10
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/blocks/dome_camera.json",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "down",
+              "up"
+            ]
+          }
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:geometry": "geometry.cctv_dome_ceiling",
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "minecraft:collision_box": {
+            "origin": [
+              -5,
+              10,
+              -5
+            ],
+            "size": [
+              10,
+              6,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -5,
+              10,
+              -5
+            ],
+            "size": [
+              10,
+              6,
+              10
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:geometry": "geometry.cctv_dome_floor",
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "minecraft:collision_box": {
+            "origin": [
+              -5,
+              0,
+              -5
+            ],
+            "size": [
+              10,
+              6,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -5,
+              0,
+              -5
+            ],
+            "size": [
+              10,
+              6,
+              10
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

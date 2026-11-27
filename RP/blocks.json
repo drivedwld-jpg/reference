@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.80",
+  "cctv:dome_camera": {
+    "sound": "metal"
+  },
+  "cctv:bullet_camera": {
+    "sound": "metal"
+  },
+  "cctv:turret_camera": {
+    "sound": "metal"
+  },
+  "cctv:ptz_camera": {
+    "sound": "metal"
+  },
+  "cctv:monitor": {
+    "sound": "metal"
+  },
+  "cctv:cpu": {
+    "sound": "metal"
+  },
+  "cctv:router": {
+    "sound": "metal"
+  },
+  "cctv:corner_camera": {
+    "textures": "cctv_corner",
+    "sound": "metal"
+  },
+  "cctv:air_conditioner": {
+    "sound": "metal",
+    "textures": "cctv_air_conditioner"
+  },
+  "cctv:heater": {
+    "sound": "metal",
+    "textures": "cctv_heater"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cctv:security_phone"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "NGN",
+      "RPE",
+      "NNN"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:iron_nugget"
+      },
+      "G": {
+        "item": "minecraft:glass_pane"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "P": {
+        "item": "minecraft:ender_pearl"
+      },
+      "E": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "result": {
+      "item": "cctv:security_phone",
+      "count": 1
+    }
+  }
+}

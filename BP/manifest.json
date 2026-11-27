@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "CCTV Security Cameras BP",
+    "description": "Adds 4 CCTV camera form factors (Dome, Bullet, Turret, PTZ) with cardinal side & ceiling mounting! No experimental toggles required.",
+    "uuid": "488a109d-8730-4bbe-9d6b-44f479f42658",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a0a0f53f-376a-404e-b73b-13c33f55f37d",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0ea1c3fa-9b0b-436c-b54b-c2ea78e2d479",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}
